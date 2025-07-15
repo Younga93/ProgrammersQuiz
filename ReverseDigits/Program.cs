@@ -20,7 +20,7 @@
             long currentNumber = n;
             for(int i = 0; i < length; i++)
             {
-                answer[i] = (int)currentNumber % 10;
+                answer[i] = (int)(currentNumber % 10);
                 currentNumber /= 10;
             }
 
